@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Console.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="4055" topLine="113" />
+	</File>
+	<File name="Console.h" open="1" top="0" tabpos="1">
+		<Cursor position="956" topLine="15" />
+	</File>
+	<File name="StatisticInfo.h" open="0" top="0" tabpos="18">
+		<Cursor position="4488" topLine="146" />
+	</File>
+	<File name="blvmap.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="21796" topLine="625" />
+	</File>
+	<File name="blvmap.h" open="0" top="0" tabpos="9">
+		<Cursor position="4209" topLine="147" />
+	</File>
+	<File name="eventfile.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="100" topLine="0" />
+	</File>
+	<File name="lodtexturemanager.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="1080" topLine="58" />
+	</File>
+	<File name="lodtexturemanager.h" open="0" top="0" tabpos="14">
+		<Cursor position="1116" topLine="0" />
+	</File>
+	<File name="mapinfo.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="838" topLine="25" />
+	</File>
+	<File name="mm_mapview2.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="23484" topLine="839" />
+	</File>
+	<File name="mm_mapview2.rc" open="0" top="0" tabpos="0">
+		<Cursor position="985" topLine="24" />
+	</File>
+	<File name="odmmap.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="30449" topLine="639" />
+	</File>
+	<File name="stdafx.h" open="1" top="0" tabpos="4">
+		<Cursor position="861" topLine="18" />
+	</File>
+	<File name="tabtxt.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="2660" topLine="83" />
+	</File>
+</CodeBlocks_layout_file>

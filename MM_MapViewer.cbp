@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MM_MapViewer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\MM_MapViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++98" />
+					<Add option="-w" />
+					<Add option="-ansi" />
+					<Add option="-g" />
+					<Add directory="C:\Users\Quentin\OgreSDK_vc11_v1-9-0\boost" />
+					<Add directory="C:\Users\Quentin\OgreSDK_vc11_v1-9-0\include\OGRE" />
+					<Add directory="C:\Users\Quentin\OgreSDK_vc11_v1-9-0\include\OGRE\Overlay" />
+					<Add directory="C:\Users\Quentin\OgreSDK_vc11_v1-9-0\include" />
+					<Add directory="..\MM_MapViewer" />
+					<Add directory="C:\Users\Quentin\MyGUI_3.2.0\MyGUIEngine\include" />
+					<Add directory="C:\Users\Quentin\MyGUI_3.2.0\MyGUIEngine\src" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Users\Quentin\Documents\Code Blocks\mm_mapview2\lib\libpng.lib" />
+					<Add library="C:\Users\Quentin\Documents\Code Blocks\mm_mapview2\lib\libz.lib" />
+					<Add directory="C:\Users\Quentin\OgreSDK_vc11_v1-9-0\boost\lib" />
+					<Add directory="C:\Users\Quentin\OgreSDK_vc11_v1-9-0\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\MM_MapViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="$(#boost.include)" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\Users\Quentin\Documents\Code Blocks\mm_mapview2\lib\libpng.lib" />
+					<Add library="C:\Users\Quentin\Documents\Code Blocks\mm_mapview2\lib\libz.lib" />
+					<Add directory="$(#boost.lib)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BaseLayout\BaseLayout.h" />
+		<Unit filename="Console.cpp" />
+		<Unit filename="Console.h" />
+		<Unit filename="EventFile.h" />
+		<Unit filename="StatisticInfo.h" />
+		<Unit filename="aeError.h" />
+		<Unit filename="aeGeometry.h" />
+		<Unit filename="agame.ico" />
+		<Unit filename="blvmap.cpp" />
+		<Unit filename="blvmap.h" />
+		<Unit filename="eventfile.cpp" />
+		<Unit filename="lodfile.cpp" />
+		<Unit filename="lodfile.h" />
+		<Unit filename="lodtexture.cpp" />
+		<Unit filename="lodtexture.h" />
+		<Unit filename="lodtexturemanager.cpp" />
+		<Unit filename="lodtexturemanager.h" />
+		<Unit filename="log.cpp" />
+		<Unit filename="log.h" />
+		<Unit filename="mapinfo.cpp" />
+		<Unit filename="mapinfo.h" />
+		<Unit filename="mapstats.h" />
+		<Unit filename="mm_mapview2.cpp" />
+		<Unit filename="mm_mapview2.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="mmstrfile.cpp" />
+		<Unit filename="mmstrfile.h" />
+		<Unit filename="odmmap.cpp" />
+		<Unit filename="odmmap.h" />
+		<Unit filename="png.h" />
+		<Unit filename="pngconf.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="selectmapdialog.cpp" />
+		<Unit filename="selectmapdialog.h" />
+		<Unit filename="small.ico" />
+		<Unit filename="stdafx.cpp" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="tabtxt.cpp" />
+		<Unit filename="tabtxt.h" />
+		<Unit filename="version.h" />
+		<Unit filename="zconf.h" />
+		<Unit filename="zlib.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
